@@ -1,6 +1,8 @@
 **The lower-board of ZJUDancer in 2019, designed by Jiang Chaofeng.**
 
-**Lower-board is nearly removed last and TX1 controls motors directly through USB-UART-RS485. However, due to the massive delay time in IMU data and motor data reading by upper-computer, the concept of lower-board is used again. Core module is replaced by Motor module.**
+**Lower-board is nearly removed last year and TX1 controls motors directly through USB-UART-RS485. 
+However, the test results show that the delay time in IMU data and motor data reading directly by upper-computer is massive, and it`s unacceptable. As a consequence, the concept of lower-board is used again. 
+Core module is replaced by Motor module to reduce workload, so the change is mainly in BottomBoard compared to boards in 2018.**
 
 ---
 
