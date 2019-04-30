@@ -1,0 +1,18 @@
+Field=Designator~String~Designator~183|Field=Value~String~Value~83|Field=Comment~String~Comment~117|Field=Description~String~Description~124|Field=Footprint~String~Footprint~107|Field=LibRef~String~LibRef~91|Field=Quantity~Integer~Quantity~56|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~ZD33Compass-V2.PrjPcb|ReportField=ProjectFullPath~G:\ZJUDancer\circuit board 2016\ZJUD_Compass_Module-V2\ZD33Compass-V2.PrjPcb|ReportField=Title~Bill of Materials For Project [ZD33Compass-V2.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~87|ReportField=ReportTime~11:05:35|ReportField=ReportDate~2018/3/19|ReportField=ReportDateTime~2018/3/19 11:05:35|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2018/3/19|ReportField=CurrentTime~11:02:55|ReportField=Date~|ReportField=DocumentFullPathAndName~G:\ZJUDancer\circuit board 2016\ZJUD_Compass_Module-V2\ZD33Compass-V2.SchDoc|ReportField=DocumentName~ZD33Compass-V2.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2016/7/27|ReportField=Organization~|ReportField=ProjectName~ZD33Compass-V2.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~ZD33Compass-V2.PrjPcb|ReportField=DataSourceFullPath~G:\ZJUDancer\circuit board 2016\ZJUD_Compass_Module-V2\ZD33Compass-V2.PrjPcb
+C1, C2, C3, C5, C8, C18|2.2uF|Cb||0402C|Cap0603|6
+C4, C6, C9, C10, C12, C13|10uF|Cd||0603C|Cap1206|6
+C11|0.1uF|Cb||0402C|Cap0603|1
+C14_A, C14_B, C14_C, C14_D, C14_E, C14_F, C14_G, C14_H, C14_I, C14_J, C14_K, C14_L, C16_A, C16_B, C16_C, C16_D, C16_E, C16_F, C16_G, C16_H, C16_I, C16_J, C16_K, C16_L, C17_A, C17_B, C17_C, C17_D, C17_E, C17_F, C17_G, C17_H, C17_I, C17_J, C17_K, C17_L|4.7uF|Cb||0603C|Cap0603|36
+C15_A, C15_B, C15_C, C15_D, C15_E, C15_F, C15_G, C15_H, C15_I, C15_J, C15_K, C15_L|0.22uF|Cb||0603C|Cap0603|12
+D1|WHITE|LED0603||0603Led|LED0603|1
+D2|BLUE|LED0603||0603Led|LED0603|1
+D3|RED|LED0603||0603Led|LED0603|1
+P1||SH_1.0MM_8P|SH_1.0MM_8P|SH_1.0MM_8P|SH_1.0MM_8P|1
+P3||SH_1.0MM_11P|SH_1.0MM_11P|SH_1.0MM_11P|SH_1.0MM_11P|1
+R1, R3|5.1K|Rb||0603R|Res0603|2
+R2|10K|Rb||0603R|Res0603|1
+R4, R5, R8|10K|Rb||0402R|Res0603|3
+U1||STM32L151C8T6|STM32L151C8T6|LQFP-48|STM32L151C8T6|1
+U2|Value|TPS7A4701_RGW_20|TPS7A4701|VQFN-20|TPS7A4701_RGW_20|1
+U3_A, U3_B, U3_C, U3_D, U3_E, U3_F, U3_G, U3_H, U3_I, U3_J, U3_K, U3_L|Value|LSM303D|LSM303D_E-Compass|LGA-16L_LSM303D|LSM303D|12
+X1|8MHz|Active crystal|ÓÐÔ´¾§Õñ3225_8M|Active_crystal_2520|Active crystal|1
