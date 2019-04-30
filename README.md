@@ -1,6 +1,6 @@
-**The lower-board of ZJUDancer in 2018, designed by Jiang Chaofeng.**
+**The lower-board of ZJUDancer in 2019, designed by Jiang Chaofeng.**
 
-**Due to the use of NVIDIA JETSON TX1/TX2, new lower-board is designed as below.**
+**Lower-board is nearly removed last and TX1 controls motors directly through USB-UART-RS485. However, due to the massive delay time in IMU data and motor data reading by upper-computer, the concept of lower-board is used again. Core module is replaced by Motor module.**
 
 ---
 
@@ -18,15 +18,16 @@ It connects to the USB port of TX1 carrier board, and branches off into 4-way US
 
 + Low voltage alarm;
 
-+ core board and IMU board connector;
++ A serial line connects upper board and Motor board;
 
-+ Dynamixel motors ports;
++ Motor board and IMU board connector;
 
-+ Port to connect USBBoard.
++ 3-way Dynamixel motors ports;
+
 
 # **SmallBoard**
 
-+ Core module: Reads IMU data through SPI1 from IMU, and sends data to upper-computer through RS-TTL UART1.
++ Motor module: Reads IMU data through SPI1 from IMU, sends data to upper-board through UART1, sends to and reads from Dynamixel motors through USART2/3/4 concurrently. 
 
 + IMU module: A carrier board for IMU.
 
